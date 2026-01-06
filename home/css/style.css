@@ -4,3 +4,25 @@
     font-size: x-large;
     background-color: lightgreen;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(240, 211, 50, 0.952);
+  padding: 13px;
+  gap: 13px;
+}
+.container div {
+  background-color: #fcd66de8;
+  color: #6E260E;
+  padding: 60px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+h1 {
+    font-weight: bold;
+}
