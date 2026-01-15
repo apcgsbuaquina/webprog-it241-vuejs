@@ -6,3 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+#app2 img {
+    width: 50px;
+}
