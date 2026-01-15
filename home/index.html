@@ -9,7 +9,11 @@
 
 <h1>My Personal Profile Web page - Gian Ace Buaquiña</h1>
 <p>
- 
+
+<div id="app">
+  {{ message }}
+</div>
+
 About Me<br>
 
 <div class="container">
@@ -29,8 +33,12 @@ Buy 6 chicken nuggets<br></div>
 </p></div>  
 </div>
 
-<div id="app">
-  {{ message }}
+<div id="app2">
+
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
+
 </div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
