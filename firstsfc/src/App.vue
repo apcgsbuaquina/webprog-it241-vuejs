@@ -1,8 +1,9 @@
 <template>
-  <h1>Food</h1>
   <personal-profile/>
-  <food-item/>
-  <food-item2/>
+  <div class="foods">
+   <food-item/>
+   <food-item2/>
+  </div>
 </template>
 
 <script></script>
